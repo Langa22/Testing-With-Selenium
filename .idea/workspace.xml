@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1058a1-c438-48fe-942d-ef6ba794e67f" name="Changes" comment="Facebook new user registration" />
+    <list default="true" id="cf1058a1-c438-48fe-942d-ef6ba794e67f" name="Changes" comment="Facebook new user registration">
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinition1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +47,7 @@
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Create a new Account">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Managing multiple browsers">
     <configuration name="Feature: OpenWeb" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" />
@@ -72,6 +76,26 @@
       <option name="NAME_FILTER" value="^Create a new Account$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create a new Account$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Create a new Account" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Managing multiple browsers" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" />
+      <option name="GLUE" value="StepDefination" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SeleniumTesting" />
+      <option name="NAME_FILTER" value="^Managing multiple browsers$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Managing multiple browsers$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Managing multiple browsers" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,28 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestRunners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestRunners" />
-      <option name="MAIN_CLASS_NAME" value="TestRunners.TestRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Managing multiple browsers" />
         <item itemvalue="Cucumber Java.Scenario: Create a new Account" />
         <item itemvalue="Cucumber Java.Scenario: Open Demo 1" />
         <item itemvalue="JUnit.StepDefinition.userOpensGoogle" />
         <item itemvalue="Cucumber Java.Feature: OpenWeb" />
-        <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652446073385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Facebook new user registration">
+      <created>1652446805165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652446805165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
