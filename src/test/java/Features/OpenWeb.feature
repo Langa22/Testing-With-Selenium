@@ -9,5 +9,5 @@ Feature: Facebook new user registration
     Then User Selects date of birth
     Then User Selects Gender
     Then User clicks sign in button
-    Then User enters code
+    #Then User enters code
     #And  Facebook account has been created
