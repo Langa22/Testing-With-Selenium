@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf1058a1-c438-48fe-942d-ef6ba794e67f" name="Changes" comment="Facebook new user registration">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinition1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinition1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinition1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: Managing multiple browsers" />
+        <item itemvalue="Cucumber Java.Feature: OpenWeb" />
         <item itemvalue="Cucumber Java.Scenario: Create a new Account" />
         <item itemvalue="Cucumber Java.Scenario: Open Demo 1" />
         <item itemvalue="JUnit.StepDefinition.userOpensGoogle" />
-        <item itemvalue="Cucumber Java.Feature: OpenWeb" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652446805165</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Facebook new user registration">
+      <created>1652450472747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652450472747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

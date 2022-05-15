@@ -15,6 +15,9 @@ Feature: Facebook new user registration
   Scenario: Managing multiple browsers
     When User opens Amazon URL
     Then Searches for headphones
-    Then Save the URL of headphones
-    Then open new tab
-    And Switch to the new tab and launch the stored URL
+    Then select headphones
+    Then Add to cart
+    And  Go back to the home window and search laptops
+    Then Select the laptop
+    Then Add the laptop to cart
+    And  Go back to the home page
