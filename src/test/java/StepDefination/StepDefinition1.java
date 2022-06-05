@@ -13,7 +13,6 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class StepDefinition1 {
-
     WebDriver driver1;
     Set<String>windows;
     Iterator<String> iterator;
@@ -26,6 +25,7 @@ public class StepDefinition1 {
     driver1=new ChromeDriver();
     driver1.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     driver1.get("https://www.amazon.in//");
+    driver1.manage().window().maximize();
     }
     @Then("^Searches for headphones$")
     public void searches_for_headphones(){
@@ -34,6 +34,7 @@ public class StepDefinition1 {
     }
     @Then("^select headphones$")
     public void select_heardphones() throws Throwable {
+     driver1.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
      WebElement w= driver1.findElement(By.xpath("//*[@id=\"search\"]/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/div/div/div/div/div/div/div[2]/div/div/div[1]/h2/a/span"));
      w.click();
      windows=driver1.getWindowHandles();
@@ -44,6 +45,7 @@ public class StepDefinition1 {
     }
     @Then("^Add to cart$")
     public void add_to_cart() {
+    driver1.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     WebElement web= driver1.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]"));
     web.click();
     }

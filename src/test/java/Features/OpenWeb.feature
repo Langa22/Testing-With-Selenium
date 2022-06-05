@@ -1,4 +1,4 @@
-@testOne
+
 Feature: Facebook new user registration
   Scenario: Create a new Account
     When User opens facebook registration page
@@ -21,3 +21,12 @@ Feature: Facebook new user registration
     Then Select the laptop
     Then Add the laptop to cart
     And  Go back to the home page
+
+  Scenario: Navigate to Take a lot website
+    When user searches opens Google chrome
+    Then User clicks on search and type in take a lot
+    Then Clicks on search button
+    Then Scroll down to Daily Deals
+    #Then click on My Account
+    #Then click on orders
+    #Then Click on Login
