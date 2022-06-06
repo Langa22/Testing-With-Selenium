@@ -74,6 +74,8 @@ public class StepDefinition1 {
     }
     @And("^Go back to the home page$")
     public void go_back_to_the_home_page() {
-     driver1.switchTo().window(parentWindow);
+        driver1.switchTo().window(parentWindow);
+        driver1.quit();
     }
+
 }

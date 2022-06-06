@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9998c6bb-7186-4ef5-b58f-5647a45bf9a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinAndMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SubstringExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/secondLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinition2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9998c6bb-7186-4ef5-b58f-5647a45bf9a1" name="Changes" comment="My Challenges">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/OpenWeb.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinition1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinition1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunners/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +116,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653895649360</updated>
     </task>
+    <task id="LOCAL-00001" summary="My Challenges">
+      <created>1654441639067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654441639067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,5 +136,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My Challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="My Challenges" />
   </component>
 </project>
